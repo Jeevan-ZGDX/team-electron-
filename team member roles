@@ -1,0 +1,39 @@
+Project Manager / Team Lead (Member 1)
+Responsibilities:
+Overall Coordination: Oversee the project and ensure the team stays on track.
+Basic Requirements Gathering: Understand the basic features you want in the mock website (e.g., homepage, product listing, product page, cart, checkout, etc.).
+Design Overview: Provide input into the visual style and branding of the site.
+Task Management: Assign tasks to team members and ensure the website is completed in a timely manner.
+Presentation: If this is for a demo, prepare the final presentation and explain how the site works.
+
+
+Front-End Development & Design (Member 2)
+Responsibilities:
+UI/UX Design: Design the overall layout of the website using tools like Figma or Adobe XD (even if it''s a mock, it should look realistic).
+Mockups: Create wireframes and mockups for each page (e.g., homepage, product listing, product details, cart page, etc.).
+Responsive Design: Make sure the site looks good on desktop and mobile.
+HTML/CSS: Code the website''s front-end using HTML and CSS. You can make it static without back-end functionality (mock-up).
+Basic Interactivity: Add simple interactions, like hover effects or a basic image carousel, using vanilla JavaScript or jQuery.
+Tools/Technologies: HTML, CSS, JavaScript, Figma/Adobe XD for design.
+
+
+Back-End (Optional / Mock Data) (Member 3)
+Since its just a mock website, you won’t need a full-fledged back-end with databases or live data. Instead, this role would focus on setting up mock data for the front-end and giving the website a more realistic feel.
+
+Responsibilities:
+Create Mock Data: Use a JSON file or simple JavaScript objects to simulate products, categories, user data, and cart functionality.
+Integrate with Front-End: Display this mock data on the product listing page, product detail pages, and cart.
+Handle Simple Cart Logic: Implement basic cart functionality using JavaScript (e.g., adding/removing products, updating quantities). No actual payment processing required for a mock.
+Tools/Technologies: JavaScript, JSON (for mock data), localStorage (optional for saving cart items).
+
+
+Content & SEO (Member 4)
+Responsibilities:
+Product Descriptions: Write product descriptions and ensure they are appealing and informative. Add fake product images to make it look realistic.
+SEO Basics: Optimize the website for search engines using basic techniques (e.g., adding relevant meta tags, alt text for images, etc.).
+Basic Marketing Copy: Create content for the homepage, about us page, FAQ, etc.
+Images: Source free stock images for products and banners (websites like Unsplash or Pexels are useful for this).
+Tools/Technologies: Google Docs for writing, SEO tools (like Yoast for on-page SEO), and image sources like Unsplash.
+
+
+                                                        choose your role which u suit for 💫✨ ?
