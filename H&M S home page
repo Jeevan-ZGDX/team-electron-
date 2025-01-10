@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&M Sale Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 15px;
+        }
+        header {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+        header a {
+            text-decoration: none;
+            color: #000;
+            margin: 0 10px;
+        }
+        .content {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .offers,
+        .shop {
+            flex: 1;
+            padding: 20px;
+        }
+        .offers ul,
+        .shop ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .offers li,
+        .shop li {
+            margin: 5px 0;
+        }
+        .main-banner {
+            text-align: center;
+            background-color: #c9002e;
+            color: #faf9f8;
+            padding: 50px 20px;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .main-banner h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .main-banner p {
+            font-size: 18px;
+            margin: 10px 0 0;
+        }
+        .main-banner .button-group {
+            margin-top: 20px;
+        }
+        .main-banner button {
+            background-color: #fff;
+            color: #c9002e;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .main-banner button:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="O_ml" aria-label="header.primary.navigation">
+                <a class="hFf3" href="#main-content" title="Skip navigation">Skip navigation</a>
+                <div class="hKII">
+                    <div class="V3Ty">
+                        <button class="CGae mYRh __5DXf dYW2 Qs46" type="button">
+                            <svg class="__2OnJ u9au" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+                                <path d="M2 6h20v1H2V6zm0 6h20v1H2v-1zm0 7v-1h20v1H2z"></path>
+                            </svg>
+                            <span class="x_nB D1BA lV7j">
+                                <span class="notranslate">header.menu</span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="__2utV"><div class="__19MM">
+                        <ul class="uozg">
+                            <li><a class="CGae mYRh vEfo" href="/en_in/sustainability-at-hm.html">Sustainability</a>
+                            </li><li><a class="CGae mYRh vEfo" href="/en_in/customer-service.html">Customer Service</a>
+                            </li><li><a class="CGae mYRh vEfo" href="/en_in/customer-service/newsletter.html">Newsletter</a>
+                            </li><li><button class="CGae jm4b __5DXf dYW2 vfdV" aria-expanded="false" aria-controls="header-service-menu-dropdown" aria-haspopup="listbox" id="header-service-menu-dropdown-button" type="button">
+                                <svg class="__2OnJ u9au" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+                                    <path d="M4 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 1a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 1a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+                                </svg>
+                                <span class="x_nB D1BA lV7j">header.more.links</span>
+                            </button>
+                            <ul class="NPDI" style="display:none" id="header-service-menu-dropdown" aria-labelledby="header-service-menu-dropdown-button">
+                                <li><a class="CGae mYRh vEfo __59_T" target="_self" href="/en_in/customer-service/shopping-at-hm/store-locator.html">Find a store</a></li>
+                                <li><a class="CGae mYRh vEfo __59_T" target="_blank" rel="noreferrer nofollow" href="https://play.google.com/store/apps/details?id=com.hm.goe">Download Android</a></li>
+                                <li><a class="CGae mYRh vEfo __59_T" target="_blank" rel="noreferrer nofollow" href="https://apps.apple.com/in/app/h-m-we-love-fashion/id834465911">Download iOS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="LKMA"><a class="CGae mYRh __5DXf dYW2" href="/en_in/index.html"><svg class="__2OnJ V3Ty u9au" viewBox="0 0 370 244" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" role="img" aria-labelledby="id-hm-logo-normal">
+                <title id="id-hm-logo-normal">H&amp;M</title>
+                <path d="M259.895 7.413c13.424-6.618 20.087-5.737 20.232.946.19 8.7-1.098 20.23-2.016 28.604-4.983 45.423-13.32 82.543-13.954 129.19 21.94-56.802 40.345-96.278 64.03-144.909 7.53-15.47 12.325-12.593 18.503-15.343 24.082-10.715 24.984-4.133 21.837 8.95-11.686 48.552-41.54 201.376-46.114 224.907-1.328 6.807-8.715 3.923-10.644 1.26-8.57-11.85-18.225-12.036-17.14-19.919 5.37-39.233 24.71-137.666 29.75-160.863-25.719 52.696-52.37 118.566-66.053 155.914-2.907 7.931-8.188 7.35-11.48 1.546-4.63-8.15-13.61-12.312-15.093-21.943-4.702-30.628 5.37-89.003 6.773-125.936-13.994 40.342-37.49 118.67-47.782 154.057-4.256 14.643-18.382 12.253-14.627-2.018 15.642-59.389 49.326-164.425 63.915-202.198 3.427-8.874 12.406-8.569 19.863-12.245zM174.6.115c4.26 1.025 3.913 6.05 1.31 12.912-7.682 20.247-18.335 46.847-30.516 78.212 7.658-.874 11.811-1.17 11.811-1.17 10.994-1.358 13.041 4.139 9.946 9.99-2.466 4.664-5.436 1.554-15.724 16.89-5.796 8.642-15.259 10.924-20.515 12.076-12.662 33.523-26.23 70.916-39.415 110.77-1.919 5.804-7.524 4.532-9.209 2.174-6.192-8.647-10.758-8.933-15.558-15.927-.577-1.132-1.706-2.672-1.027-5.448 3.53-14.425 12.901-44.067 27.156-83.091-17.958 3.892-37.387 8.076-45.408 9.94-9.626 25.445-19.014 50.967-27.908 76.18-5.518 15.64-19.88 12.617-14.84-2.165 8.028-23.548 16.89-48.004 25.776-71.72-9.948-1.063-13.313-8.088-18.873-13.958-2.147-2.267-6.828-1.948-9.12-5.127-4.123-5.711-3.712-8.248 5.81-10.996a955.318 955.318 0 0137.464-9.998c16.09-41.524 30.63-77.144 38.38-96.151C90.114-1.138 105.514.226 99.664 14.674c-11.889 29.363-24.079 59.867-36.11 90.799a880.98 880.98 0 0144.748-8.87 2312.644 2312.644 0 0134.62-83.968c.845-1.937 3.31-4.678 5.878-5.118 8.092-1.385 21.251-8.498 25.8-7.402zm-27.552 190.077c1.265-.773 2.524-1.715 3.767-2.75a756.514 756.514 0 01-2.82-8.468 139.528 139.528 0 00-2.752 3.638c-5.386 7.396-2.197 10.028 1.805 7.58zm7.167-35.065c6.67-7.53-6.516-10.681-3.48.836.17.65.382 1.413.62 2.254a98.19 98.19 0 002.86-3.09zm6.941 22.695c6.602-5.721 12.908-.046 6.38 9.628-1.404 2.08-2.99 4.318-4.729 6.522a193.17 193.17 0 002.146 5.877c3.375 8.654-5.488 10.824-8.345 3.656-.25-.626-.51-1.297-.778-1.995-5.387 4.772-11.618 7.777-18.275 5.707-10.954-3.407-13.74-18.83-3.514-30.711 4.103-4.767 7.191-8.074 9.771-10.716a251.947 251.947 0 01-1.819-6.17c-1.328-4.81-2.527-10.416 2.287-16.13 9.027-10.712 29.971-1.203 19.377 15.289-2.552 3.972-5.535 7.724-8.647 11.527a979.555 979.555 0 003.26 10.18 78.304 78.304 0 012.886-2.664z">
+                    
+                </path>
+            </svg>
+                <title id="id-hm-logo-xlarge">H&amp;M</title><path d="M259.895 7.413c13.424-6.618 20.087-5.737 20.232.946.19 8.7-1.098 20.23-2.016 28.604-4.983 45.423-13.32 82.543-13.954 129.19 21.94-56.802 40.345-96.278 64.03-144.909 7.53-15.47 12.325-12.593 18.503-15.343 24.082-10.715 24.984-4.133 21.837 8.95-11.686 48.552-41.54 201.376-46.114 224.907-1.328 6.807-8.715 3.923-10.644 1.26-8.57-11.85-18.225-12.036-17.14-19.919 5.37-39.233 24.71-137.666 29.75-160.863-25.719 52.696-52.37 118.566-66.053 155.914-2.907 7.931-8.188 7.35-11.48 1.546-4.63-8.15-13.61-12.312-15.093-21.943-4.702-30.628 5.37-89.003 6.773-125.936-13.994 40.342-37.49 118.67-47.782 154.057-4.256 14.643-18.382 12.253-14.627-2.018 15.642-59.389 49.326-164.425 63.915-202.198 3.427-8.874 12.406-8.569 19.863-12.245zM174.6.115c4.26 1.025 3.913 6.05 1.31 12.912-7.682 20.247-18.335 46.847-30.516 78.212 7.658-.874 11.811-1.17 11.811-1.17 10.994-1.358 13.041 4.139 9.946 9.99-2.466 4.664-5.436 1.554-15.724 16.89-5.796 8.642-15.259 10.924-20.515 12.076-12.662 33.523-26.23 70.916-39.415 110.77-1.919 5.804-7.524 4.532-9.209 2.174-6.192-8.647-10.758-8.933-15.558-15.927-.577-1.132-1.706-2.672-1.027-5.448 3.53-14.425 12.901-44.067 27.156-83.091-17.958 3.892-37.387 8.076-45.408 9.94-9.626 25.445-19.014 50.967-27.908 76.18-5.518 15.64-19.88 12.617-14.84-2.165 8.028-23.548 16.89-48.004 25.776-71.72-9.948-1.063-13.313-8.088-18.873-13.958-2.147-2.267-6.828-1.948-9.12-5.127-4.123-5.711-3.712-8.248 5.81-10.996a955.318 955.318 0 0137.464-9.998c16.09-41.524 30.63-77.144 38.38-96.151C90.114-1.138 105.514.226 99.664 14.674c-11.889 29.363-24.079 59.867-36.11 90.799a880.98 880.98 0 0144.748-8.87 2312.644 2312.644 0 0134.62-83.968c.845-1.937 3.31-4.678 5.878-5.118 8.092-1.385 21.251-8.498 25.8-7.402zm-27.552 190.077c1.265-.773 2.524-1.715 3.767-2.75a756.514 756.514 0 01-2.82-8.468 139.528 139.528 0 00-2.752 3.638c-5.386 7.396-2.197 10.028 1.805 7.58zm7.167-35.065c6.67-7.53-6.516-10.681-3.48.836.17.65.382 1.413.62 2.254a98.19 98.19 0 002.86-3.09zm6.941 22.695c6.602-5.721 12.908-.046 6.38 9.628-1.404 2.08-2.99 4.318-4.729 6.522a193.17 193.17 0 002.146 5.877c3.375 8.654-5.488 10.824-8.345 3.656-.25-.626-.51-1.297-.778-1.995-5.387 4.772-11.618 7.777-18.275 5.707-10.954-3.407-13.74-18.83-3.514-30.711 4.103-4.767 7.191-8.074 9.771-10.716a251.947 251.947 0 01-1.819-6.17c-1.328-4.81-2.527-10.416 2.287-16.13 9.027-10.712 29.971-1.203 19.377 15.289-2.552 3.972-5.535 7.724-8.647 11.527a979.555 979.555 0 003.26 10.18 78.304 78.304 0 012.886-2.664z">
+                </path>
+            </svg>
+            <span class="x_nB D1BA lV7j">
+                <span class="notranslate">H&amp;M Hennes &amp; Mauritz</span>
+            </span>
+        </a>
+    </div>
+    <ul class="__6JP7">
+        <li>
+            <div class="wd3S">
+                <button class="CGae mYRh vEfo __5DXf k0Zy" data-elid="header-account-button" type="button">
+                    <svg class="__2OnJ u9au" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+                        <path d="M19.346 18.24c-1.243-.425-1.477-.511-2.047-.76-2.453-1.067-3.445-2.375-2.77-4.08.142-.36.277-.648.611-1.307l.012-.024c.279-.55.386-.772.512-1.062a5.26 5.26 0 0 0 .17-.448c.191-.575.273-1.047.381-2.173l.005-.053.005-.052c.368-3.824-.147-5.244-2.249-5.973A5.822 5.822 0 0 0 12 2.001h-.014c-.271-.004-.544.01-.814.044-.4.05-.788.138-1.149.263-2.101.73-2.616 2.15-2.247 5.974l.004.041.004.043c.108 1.137.19 1.613.382 2.193.05.153.107.302.17.448.126.29.234.512.512 1.061l.012.025c.334.658.47.947.612 1.307.674 1.705-.318 3.013-2.771 4.08-.57.249-.805.336-2.046.76-1.889.648-2.83 1.506-3.117 2.816l-.001.012c.132.037.303.076.508.118a32.46 32.46 0 0 0 2.452.369c2.318.274 5.014.445 7.505.445 2.491 0 5.186-.17 7.503-.445.99-.117 1.846-.247 2.45-.37.205-.04.375-.08.507-.116-.304-1.338-1.244-2.187-3.116-2.83zM14.304 1.364c2.647.917 3.323 2.783 2.917 7.013l-.005.052-.005.053c-.115 1.194-.208 1.731-.427 2.391-.06.182-.128.36-.203.532-.135.312-.25.55-.537 1.117l-.012.023c-.321.634-.445.898-.574 1.222-.423 1.072.217 1.916 2.24 2.796.54.235.753.314 1.972.73 2.192.753 3.399 1.855 3.785 3.65l.045.42c0 .64-1.016.846-3.878 1.185a67.263 67.263 0 0 1-7.62.452 67.32 67.32 0 0 1-7.622-.452C1.516 22.209.5 22.004.503 21.306l.05-.413c.38-1.746 1.587-2.848 3.778-3.6 1.217-.416 1.432-.495 1.971-.73 2.023-.88 2.663-1.724 2.24-2.796-.128-.324-.253-.59-.574-1.222l-.012-.025a18.808 18.808 0 0 1-.537-1.115 6.292 6.292 0 0 1-.203-.532c-.22-.666-.313-1.207-.428-2.412l-.004-.043-.004-.041c-.408-4.227.27-6.096 2.915-7.013a6.589 6.589 0 0 1 1.354-.312c.313-.038.63-.056.944-.051.8-.01 1.595.113 2.311.363z"></path>
+                    </svg>
+                    <span class="HcHv">Sign in</span>
+                </button>
+            </div>
+        </li>
+        <li class="V3Ty"><div class="lM_I">
+            <div class="__84b_ HngE enY1">
+                <div class="Lyfz WNOI">
+                    <div class="q3cF aMgr">
+                        <label class="iU9P">Search</label>
+                    </div>
+                    <div class="__64_F">
+                        <div class="vsc8">
+                            <input class="psxM XAI6" data-elid="search-input" placeholder="Search" autocomplete="off" role="combobox" autocapitalize="none" aria-owns="searchbar-autocomplete" aria-controls="searchbar-autocomplete" aria-autocomplete="list" aria-expanded="false" aria-label="Search" minlength="2" maxlength="200" aria-required="false" type="search" tabindex="0" value="">
+                            <button class="CGae mYRh __5DXf dYW2 k4Km" tabindex="0" iconbuttonprops="[object Object]" type="button"><svg class="__2OnJ u9au" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+                                <path d="M11 2a9 9 0 0 1 6.866 14.82l-.159.18 4.243 4.243-.707.707L17 17.708A9 9 0 1 1 11 2zm0 1a8 8 0 1 0 0 16 8 8 0 0 0 0-16z"></path>
+                            </svg>
+                            <span class="x_nB D1BA lV7j">Search</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+<li>
+    <div class="N6Oc"><a class="CGae mYRh vEfo __5DXf" id="nav-favourites" href="/en_in/favourites"><svg class="__2OnJ u9au" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+    <path class="innerElement" d="M17.376 1C21.476 1 24 3.556 24 7.748c0 1.614-.961 3.598-2.696 5.9-.89 1.183-1.97 2.425-3.196 3.705a71.38 71.38 0 0 1-3.987 3.832 71.307 71.307 0 0 1-1.816 1.566L12 23l-.305-.25a71.307 71.307 0 0 1-1.816-1.565 71.38 71.38 0 0 1-3.987-3.832c-1.227-1.28-2.305-2.522-3.196-3.704C.961 11.346 0 9.362 0 7.748 0 3.556 2.524 1 6.624 1c2.08 0 4.23 1.548 5.376 3.548C13.145 2.548 15.294 1 17.376 1z" fill="#FFF"></path>
+    <path class="outerElement" d="M17.376 1C21.476 1 24 3.578 24 7.807c0 1.628-.961 3.63-2.696 5.953-.89 1.192-1.97 2.446-3.196 3.737a71.66 71.66 0 0 1-3.987 3.865 71.495 71.495 0 0 1-1.816 1.58l-.305.251-.305-.252c-.093-.076-.264-.22-.503-.424-.396-.34-.838-.727-1.313-1.155a71.66 71.66 0 0 1-3.987-3.865c-1.227-1.291-2.305-2.545-3.196-3.737C.961 11.437 0 9.435 0 7.807 0 3.578 2.524 1 6.624 1c2.08 0 4.23 1.562 5.376 3.58C13.145 2.56 15.294 1 17.376 1zM12 21.79l.18-.154c.383-.329.812-.704 1.273-1.12a69.488 69.488 0 0 0 3.865-3.746c1.18-1.244 2.217-2.448 3.068-3.587 1.593-2.132 2.462-3.943 2.462-5.286 0-3.64-2.063-5.747-5.565-5.747-1.927 0-4.049 1.768-4.842 3.843L12 7.145l-.44-1.152C10.765 3.919 8.642 2.15 6.716 2.15c-3.502 0-5.565 2.107-5.565 5.747 0 1.343.87 3.154 2.462 5.286.85 1.14 1.887 2.343 3.068 3.587a69.488 69.488 0 0 0 3.865 3.747A69.313 69.313 0 0 0 12 21.789z"></path>
+</svg>
+<span class="Gxpv">Favourites</span>
+</a>
+</div>
+</li>
+<li>
+    <div class="__5wCG">
+        <a class="CGae mYRh vEfo __5DXf" id="nav-mini-cart" href="/en_in/cart">
+            <svg class="__2OnJ u9au" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false"><path d="M12 .1c2.9 0 4.9 1.4 4.9 3.8v.6h3.8v5.1c0 4.7 2.1 13.3.5 13.3-.7 0-5 1.1-9.2 1.1-4.6 0-9.2-1.1-9.2-1.1-1.5 0 .5-8.7.5-13.3V4.4h3.8v-.6c0-2.4 2-3.7 4.9-3.7zm7.6 5.4h-2.7v2.2h-1.1V5.5H8.2v2.2H7.1V5.5H4.4v4c0 1.3-.1 2.9-.4 5.3l-.1.9c-.4 3-.5 3.9-.5 5v1.2c.8.1 1.6.3 2.4.4 2.1.3 4.2.5 6.1.5h.5c1.6 0 3.3-.2 5.2-.5.2 0 2-.4 2.9-.5v-1.4c0-1-.2-1.9-.5-4.7 0-.3-.1-.6-.1-.9-.3-2.4-.4-4-.4-5.3v-4zM12 1.2c-2.3 0-3.8 1-3.8 2.6v.6h7.6v-.6c0-1.7-1.5-2.6-3.8-2.6z"></path></svg>
+            <span class="DU5j">Shopping bag (0)</span>
+            <span aria-hidden="true" class="UXCi">0</span>
+            <span class="x_nB D1BA UXCi lV7j">Shopping bag (0)</span>
+        </a>
+    </div>
+</li>
+</ul>
+</div>
+<div class="V3Ty"></div>
+<div class="__2utV">
+    <div class="feXG">
+        <div class="__5f_w">
+            <ul class="MLEL">
+                <li class="">
+                    <a class="CGae __9y2v vEfo" href="/en_in/sale.html">Sale</a>
+                    <div class="wILu" style="display:none">
+                        <ul class="__0XfP">
+                            <li>
+                                <span class="x_nB cX9C">Women</span>
+                                <ul>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/view-all.html">View All</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/tops.html">Tops &amp; T-shirts</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/dresses.html">Dresses</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/shirts-blouses.html">Shirts &amp; Blouses</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/jeans.html">Jeans</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/shoes.html">Shoes</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/trousers.html">Trousers</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/accessories.html">Accessories</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/skirts.html">Skirts</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/swimwear.html">Swimwear</a>
+                                    </li>
+                                    <li>
+                                        <a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/shorts.html">Shorts</a>
+                                    </li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/basics.html">Basics</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/blazers-waistcoats.html">Blazers &amp; Waistcoats</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/lingerie.html">Lingerie</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/sportswear.html">Sportswear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/cardigans-jumpers.html">Sweaters &amp; Cardigans</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/hoodies-sweatshirts.html">Sweatshirts &amp; Hoodies</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/jackets-coats.html">Jackets &amp; Coats</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/nightwear.html">Sleepwear &amp; Loungewear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/knitwear.html">Knitwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/jumpsuits.html">Jumpsuits</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/socks-tights.html">Socks &amp; Tights</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/maternity-wear.html">Maternity Wear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/extended-sizes.html">Extended Sizes</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/women/premium-selection.html">Premium Selection</a></li></ul></li><li><span class="x_nB cX9C">Men</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/view-all.html">View All</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/hoodies-sweatshirts.html">Hoodies &amp; Sweatshirts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/jackets-coats.html">Jackets &amp; Coats</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/t-shirts-tank-tops.html">T-shirts &amp; Tank tops</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/shirts.html">Shirts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/jeans.html">Jeans</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/trousers.html">Trousers</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/cardigans-jumpers.html">Sweaters &amp; Cardigans</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/accessories.html">Accessories</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/premium-selection.html">Premium Selection</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/basics.html">Basics</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/shorts.html">Shorts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/blazers-suits.html">Blazers &amp; Suits</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/shoes.html">Shoes</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/sportswear.html">Sportswear </a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/underwear.html">Underwear &amp; Innerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/nightwear-loungewear.html">Sleepwear &amp; Loungewear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/men/socks.html">Socks</a></li></ul></li><li><span class="x_nB cX9C">Baby</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/baby/save-big-min-50-off.html">SAVE BIG: MIN 50% OFF</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/baby/products.html">View all products</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/baby/styles-for-rs-599-under.html">SALE STYLES UNDER RS.599</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/baby/newborn.html">Newborn</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/baby/girls.html">Baby Girl</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/baby/boys.html">Baby Boy</a></li></ul></li><li><span class="x_nB cX9C">Kids</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/save-big-min-50-off.html">SAVE BIG: MIN 50% OFF</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/sale-under.html">SALE STYLES UNDER RS.599</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/ink-summersaleboys.html">Tops &amp; Tees - Best price</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/ink-summersalegirls.html">Dresses - Best price</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/ink-summersalebaby.html">Jeans - Best price</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/view-all.html">View all</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/girls.html">Girls 2-8Y</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/boys.html">Boys 2-8Y</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/girls-9-14y.html">Girls 9-14Y</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/kids/boys-9-14y.html">Boys 9-14Y</a></li></ul></li><li><span class="x_nB cX9C">H&amp;M Home</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/shop-by-product-home/view-all.html">View All</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/shop-by-product-home/bedroom.html">Bedroom</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/shop-by-product-home/livingroom.html">Livingroom</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/shop-by-product-home/bathroom.html">Bathroom</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/shop-by-product-home/cushions.html">Cushions</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/shop-by-product-home/bed-linen.html">Bed Linen</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/shop-by-product-home/decorations.html">Decorations</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/shop-by-product-home/storage.html">Storage</a></li></ul></li><li><span class="x_nB cX9C">Sport</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/sport/view-all.html">View all</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/sport/women.html">Women</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/sport/men.html">Men</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/sale/sport/kids.html">Kids</a></li></ul></li></ul></div></li><li class=""><a class="CGae __9y2v vEfo" href="/en_in/women.html">Ladies</a><div class="wILu" style="display: none;"><ul class="__0XfP"><li><span class="x_nB cX9C">Offers</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/member-price/inl-min-discount.html">Accessories at min 50% off</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/member-price/inl-gg-focus1.html">Ladies gym wear starting 499</a></li></ul></li><li><span class="x_nB cX9C">New In</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/new-arrivals/view-all.html">View All</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/new-arrivals/clothes.html">Women's Clothing | New Arrivals</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/new-arrivals/sport.html">Sport</a></li></ul></li><li><span class="x_nB cX9C">Trending Now</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/seasonal-trending/trending-now.html">Trending Now</a></li></ul></li><li><span class="x_nB cX9C">Clothing</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/view-all.html">View All</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/tops.html">Tops</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/hoodies-sweatshirts.html">Sweatshirts &amp; Hoodies</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/knitwear.html">Knitwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/cardigans-jumpers.html">Sweaters &amp; Cardigans</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/jackets-coats.html">Jackets &amp; Coats</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/dresses.html">Dresses</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/shirts-blouses.html">Shirts &amp; Blouses</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/blazers-waistcoats.html">Blazers &amp; Waistcoats</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/jeans.html">Jeans</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/trousers.html">Trousers</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/nightwear.html">Nightwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/lingerie.html">Lingerie</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/shorts.html">Shorts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/skirts.html">Skirts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/basics.html">Basics</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/swimwear.html">Swimwear &amp; Beachwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/h-m-edition.html">H&amp;M Edition</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/merch-graphics.html">Merch &amp; Graphics</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/jumpsuits-playsuits.html">Jumpsuits</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/loungewear.html">Loungewear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/sportswear.html">Sport</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/socks-tights.html">Socks &amp; Tights</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/maternity-wear.html">Maternity Wear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/sale.html">Sale</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/premium-selection.html">Premium Selection</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shop-by-product/care-products.html">Care products</a></li></ul></li><li><span class="x_nB cX9C">Sport</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/view-all.html">View all</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/new-in.html">New In</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/leggings-tights.html">Leggings &amp; Tights</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/sports-bras.html">Sport Bras</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/tops.html">Tops</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/hoodies.html">Hoodies &amp; Sweatshirts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/trousers.html">Trousers &amp; Joggers</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/shorts.html">Shorts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/dresses.html">Dresses</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/outerwear.html">Outerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/accessories.html">Accessories &amp; Equipment</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/socks.html">Socks</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/swimwear.html">Active Swimwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/maternity.html">Maternity</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/gym.html">Training &amp; Gym</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/running.html">Running</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/yoga.html">Yoga &amp; Studio</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/sport/skiwear.html">Skiing</a></li></ul></li><li><span class="x_nB cX9C">Accessories</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/accessories/view-all.html">View all</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/accessories/bags.html">Bags</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/accessories/jewellery.html">Jewellery</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/accessories/sunglasses.html">Sunglasses</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/accessories/hair-accessories.html">Hair Accessories</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/accessories/belts.html">Belts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/accessories/gloves.html">Gloves</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/accessories/hats.html">Hats</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/accessories/scarves.html">Scarves</a></li></ul></li><li><span class="x_nB cX9C">Shoes</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shoes/view-all.html">View all</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shoes/boots.html">Boots</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shoes/flats.html">Flats</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shoes/heels.html">Heels</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shoes/loafers.html">Loafers</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shoes/sandals.html">Sandals</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shoes/slippers.html">Slippers</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/women/shoes/slingback.html">Slingback</a></li></ul></li></ul></div></li><li class=""><a class="CGae __9y2v vEfo" href="/en_in/men.html">Men</a><div class="wILu" style="display:none"><ul class="__0XfP"><li><span class="x_nB cX9C">Offers</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/member-price/flat-40-off.html">Topwear: Min. 50% off</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/member-price/shop-now.html">Bestsellers under ₹1499</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/member-price/inm-min-discount.html">Accessories: Min 40% off</a></li></ul></li><li><span class="x_nB cX9C">New In</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/new-arrivals/view-all.html">View All</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/new-arrivals/accessories.html">Accessories</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/new-arrivals/clothes.html">Clothes</a></li></ul></li><li><span class="x_nB cX9C">Trending now</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/seasonal-trending/outdoor-apparel.html">Outdoor apparel</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/seasonal-trending/elevated-basics.html">Core comfort</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/seasonal-trending/trending-now.html">Trending Now</a></li></ul></li><li><span class="x_nB cX9C">Clothing</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/sale.html">Sale</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/view-all.html">View All</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/hoodies-sweatshirts.html">Hoodies &amp; Sweatshirts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/shirts.html">Shirts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/tshirts-tank-tops.html">T-shirts &amp; Tops</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/jackets-coats.html">Jackets &amp; Coats</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/trousers.html">Trousers</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/jeans.html">Jeans</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/cardigans-jumpers.html">Sweaters &amp; Cardigans</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/polos.html">Polos</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/basics.html">Basics</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/suits-blazers.html">Blazers &amp; Suits</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/shorts.html">Shorts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/underwear.html">Underwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/premium-selection.html">Premium Selection</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/nightwear-loungewear.html">Sleepwear &amp; Loungewear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/swimwear.html">Swimwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/socks.html">Socks</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/sportswear.html">Sport</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shop-by-product/care-products.html">Care products</a></li></ul></li><li><span class="x_nB cX9C">Accessories</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/accessories/view-all.html">View all</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/accessories/bags.html">Bags</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/accessories/belts-and-suspenders.html">Belts and Suspenders</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/accessories/gloves.html">Gloves</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/accessories/hats.html">Hats and Caps</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/accessories/jewellery.html">Jewellery</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/accessories/scarves.html">Scarves</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/accessories/sunglasses.html">Sunglasses</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/accessories/ties-bow-tie-handkerchiefs.html">Ties &amp; Bowties</a></li></ul></li><li><span class="x_nB cX9C">Shoes</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shoes/view-all.html">View all</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shoes/slippers.html">Slippers</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/shoes/sneakers.html">Trainers</a></li></ul></li><li><span class="x_nB cX9C">Sport</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/view-all.html">View all</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/new-in.html">New In</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/tops.html">Tops</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/hoodies-sweatshirts.html">Sweatshirts &amp; Hoodies</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/trousers.html">Trousers &amp; Joggers</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/shorts.html">Shorts</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/outerwear.html">Outerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/sports-accessories.html">Accessories &amp; Equipment</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/socks.html">Sport Socks</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/gym.html">Training &amp; Gym</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/men/sport/running.html">Running</a></li></ul></li></ul></div></li><li class=""><a class="CGae __9y2v vEfo" href="/en_in/baby.html">Baby</a><div class="wILu" style="display:none"><ul class="__0XfP"><li><span class="x_nB cX9C">Life with Baby</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/hm-baby/4107a-life-with-baby-landing-page.html">Guides and inspo</a></li></ul></li><li><span class="x_nB cX9C">New In</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/new-in/newborn.html">Newborn</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/new-in/baby.html">Baby</a></li></ul></li><li><span class="x_nB cX9C">Trending Now</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/seasonal-trending/inbaby-01.html">Christmas Shop</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/seasonal-trending/character-newborn.html">Character newborn</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/seasonal-trending/adorables.html">H&amp;M Adorables</a></li></ul></li><li><span class="x_nB cX9C">Newborn</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/newborn/clothing.html">Clothing</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/newborn/accessories.html">Accessories</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/newborn/outerwear.html">Outerwear</a></li></ul></li><li><span class="x_nB cX9C">Baby Girl</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/girls/clothing.html">Clothing</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/girls/outerwear.html">Outerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/girls/accessories.html">Accessories</a></li></ul></li><li><span class="x_nB cX9C">Baby Boy</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/boys/clothing.html">Clothing</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/boys/outerwear.html">Outerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/boys/accessories.html">Accessories</a></li></ul></li><li><span class="x_nB cX9C">Shop by Product</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/products/clothing.html">Clothing</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/products/outerwear.html">Outerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/products/accessories.html">Accessories</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/baby/products/sale-baby-redirect.html">Sale</a></li></ul></li></ul></div></li><li class=""><a class="CGae __9y2v vEfo" href="/en_in/kids.html">Kids</a><div class="wILu" style="display: none;"><ul class="__0XfP"><li><span class="x_nB cX9C">Offers</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/deals0/save-big-min-50-off.html">WINTER BASICS</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/deals0/deal.html">New in Jackets &amp; Sweatshirts</a></li></ul></li><li><span class="x_nB cX9C">Trending now</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/seasonal-trending/adorables.html">H&amp;M Adorables</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/seasonal-trending/fancy-dress.html">Carnival Outfits/Fancy Dress</a></li></ul></li><li><span class="x_nB cX9C">New In</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/new-arrivals/2-8.html">Kids 2-8Y</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/new-arrivals/9-14.html">Kids 9-14Y</a></li></ul></li><li><span class="x_nB cX9C">Girls 2-8Y</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls/clothing.html">Clothing</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls/outerwear.html">Outerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls/accessories.html">Accessories</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls/h-m-adorables.html">H&amp;M Adorables</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls/sportswear.html">Sportswear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls/view-all1.html">Sale</a></li></ul></li><li><span class="x_nB cX9C">Boys 2-8Y</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys/clothing.html">Clothing</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys/outerwear.html">Outerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys/accessories.html">Accessories</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys/h-m-adorables.html">H&amp;M Adorables</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys/sportswear.html">Sportswear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys/view-all1.html">Sale</a></li></ul></li><li><span class="x_nB cX9C">Girls 9-14Y</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls-9-14y/clothing.html">Clothing</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls-9-14y/outerwear.html">Outerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls-9-14y/accessories.html">Accessories</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls-9-14y/sportswear.html">Sportswear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/girls-9-14y/view-all1.html">Sale</a></li></ul></li><li><span class="x_nB cX9C">Boys 9-14Y</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys-9-14y/clothing.html">Clothing</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys-9-14y/outerwear.html">Outerwear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys-9-14y/accessories.html">Accessories</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys-9-14y/sportswear.html">Sportswear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/kids/boys-9-14y/view-all1.html">Sale</a></li></ul></li></ul></div></li><li class=""><a class="CGae __9y2v vEfo" href="/en_in/home.html">Home</a><div class="wILu" style="display:none"><ul class="__0XfP"><li><span class="x_nB cX9C">Offers</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/member-exclusive-prices/shop-now.html">Sales Pick: Min 60% off</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/member-exclusive-prices/gifts-under-rs1499.html">Price drop on Textile from ₹199</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/member-exclusive-prices/dine-in-style.html">Bedroom Essentials: From ₹299</a></li></ul></li><li><span class="x_nB cX9C">New In</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/new-arrivals/textiles.html">New Products</a></li></ul></li><li><span class="x_nB cX9C">Shop by Room</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-room/bedroom.html">Bedroom</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-room/livingroom.html">Living Room</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-room/bathroom.html">Bathroom</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-room/nursery.html">Nursery</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-room/kids-room.html">Kids Room</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-room/kitchen.html">Kitchen</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-room/outdoor.html">Balcony &amp; Outdoor</a></li></ul></li><li><span class="x_nB cX9C">Shop by Product</span><ul><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/view-all.html">View All</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/textiles.html">Interior textiles</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/bed-linen.html">Bedding &amp; Blankets</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/decorations.html">Decorations</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/cooking-dining.html">Cooking &amp; Dining</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/bath-shower.html">Bath &amp; Shower</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/storage.html">Storage</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/sleepwear.html">Sleep &amp; Loungewear</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/kids-baby.html">Kids &amp; Baby</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/home-fragrance.html">Room Fragrance</a></li><li><a class="CGae mYRh vEfo Q7SQ" href="/en_in/home/shop-by-product/sale.html">Sale</a></li></ul></li></ul></div></li></ul></div><div class="mRTT"><div class="lM_I"><div class="__84b_ HngE enY1"><div class="Lyfz WNOI"><div class="q3cF aMgr"><label class="iU9P">Search</label></div><div class="__64_F">
+                                            </nav>
+        <div>
+            <a href="#">Sign in</a>
+            <a href="#">Favourites</a>
+            <a href="#">Shopping bag (0)</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="offers">
+            <ul>
+                <li>Sales Pick: Min 60% off</li>
+                <li>Price drop on Textile from ₹199</li>
+                <li>Bedroom Essentials: From ₹299</li>
+            </ul>
+            <div class="shop">
+                <h3>Shop by Room</h3>
+                <ul>
+                    <li>Bedroom</li>
+                    <li>Living Room</li>
+                    <li>Bathroom</li>
+                    <li>Nursery</li>
+                    <li>Kids Room</li>
+                    <li>Kitchen</li>
+                    <li>Balcony & Outdoor</li>
+                </ul>
+                <h3>Shop by Product</h3>
+                <ul>
+                    <li>View All</li>
+                    <li>Interior textiles</li>
+                    <li>Bedding & Blankets</li>
+                    <li>Decorations</li>
+                    <li>Cooking & Dining</li>
+                    <li>Bath & Shower</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-banner">
+            <h1>Final sale: Up to 70% off</h1>
+            <p>Discover new styles added.</p>
+            <div class="button-group">
+                <button>View all</button>
+                <button>Bedroom</button>
+                <button>Living room</button>
+                <button>Bathroom</button>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>
