@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Shopping Cart</title>
+    <style>
+        /* Cart Container Styles */
+        .shopping-cart-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .cart-icon {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .cart-count {
+            position: absolute;
+            top: -5px;
+            right: -10px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 6px;
+            font-size: 12px;
+        }
+
+        .cart-dropdown {
+            display: none;
+            position: absolute;
+            top: 30px;
+            right: 0;
+            background: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            z-index: 100;
+            border-radius: 4px;
+        }
+
+        .cart-dropdown ul {
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .cart-dropdown li {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+        }
+
+        .cart-dropdown .cart-total {
+            padding: 10px;
+            font-weight: bold;
+            border-top: 1px solid #ccc;
+        }
+
+        .cart-dropdown .checkout-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 0 0 4px 4px;
+        }
+
+        .shopping-cart-container:hover .cart-dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Shopping Cart -->
+    <div class="shopping-cart-container">
+        <div class="cart-icon">
+            <img src="cart-icon.png" alt="Shopping Cart" style="width: 40px;">
+            <span class="cart-count">0</span>
+        </div>
+        <div class="cart-dropdown">
+            <ul class="cart-items">
+                <!-- Items will be dynamically added here -->
+            </ul>
+            <div class="cart-total">
+                Total: $<span id="cart-total">0.00</span>
+            </div>
+            <button class="checkout-button">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Add Products Section -->
+    <div style="margin-top: 50px;">
+        <button onclick="addToCart('Product 1', 29.99)">Add Product 1 - $29.99</button>
+        <button onclick="addToCart('Product 2', 39.99)">Add Product 2 - $39.99</button>
+        <button onclick="addToCart('Product 3', 19.99)">Add Product 3 - $19.99</button>
+    </div>
+
+    <script>
+        // Cart Object
+        const cart = {
+            items: [],
+            total: 0,
+
+            addItem(product) {
+                this.items.push(product);
+                this.calculateTotal();
+                this.updateCartUI();
+            },
+
+            calculateTotal() {
+                this.total = this.items.reduce((sum, item) => sum + item.price, 0);
+            },
+
+            updateCartUI() {
+                const cartItemsContainer = document.querySelector('.cart-items');
+                const cartTotalElement = document.getElementById('cart-total');
+                const cartCountElement = document.querySelector('.cart-count');
+
+                // Clear previous items
+                cartItemsContainer.innerHTML = '';
+
+                // Add new items
+                this.items.forEach((item, index) => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `
+                        <span>${item.name}</span>
+                        <span>$${item.price.toFixed(2)}</span>
+                        <button class="remove-item" data-index="${index}">Remove</button>
+                    `;
+                    cartItemsContainer.appendChild(li);
+                });
+
+                // Update total and count
+                cartTotalElement.textContent = this.total.toFixed(2);
+                cartCountElement.textContent = this.items.length;
+
+                // Add remove button functionality
+                document.querySelectorAll('.remove-item').forEach(button => {
+                    button.addEventListener('click', (e) => {
+                        const index = e.target.dataset.index;
+                        this.removeItem(index);
+                    });
+                });
+            },
+
+            removeItem(index) {
+                this.items.splice(index, 1);
+                this.calculateTotal();
+                this.updateCartUI();
+            }
+        };
+
+        // Add to Cart Function
+        function addToCart(name, price) {
+            cart.addItem({ name, price });
+        }
+    </script>
+</body>
+</html>
