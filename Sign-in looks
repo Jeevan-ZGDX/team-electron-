@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Hover</title>
+    <style>
+        /* Container to center the list */
+        .sign-in-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Styling the unordered list */
+        .sign-in {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        /* Styling the list item */
+        .sign-in li {
+            font-size: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect */
+        .sign-in:hover {
+            background-color: black;
+            border: 2px solid black;
+        }
+
+        .sign-in li:hover {
+            color: white;
+        }
+
+        /* Additional items for My Account, H&M Membership, etc. */
+        .extra-info {
+            display: none; /* Initially hide additional info */
+            text-align: center;
+            margin-top: 10px;
+            color: black;
+        }
+
+        .sign-in:hover + .extra-info {
+            display: block;
+        }
+
+        .extra-info a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .extra-info a:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sign-in-container">
+        <ul class="sign-in">
+            <li id="signInBtn">Sign In</li>
+        </ul>
+        <!-- Additional information displayed on hover -->
+        <div class="extra-info">
+            <p><a href="#">My Account</a></p>
+            <p><a href="#">H&M Membership</a></p>
+            <p><a href="#">Not a member yet? <span style="color: blue;">Join Here!</span></a></p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle hover effect (optional for adding behavior)
+        const signInButton = document.getElementById("signInBtn");
+
+        // Optional: Add an event listener for hover effect
+        signInButton.addEventListener("mouseover", function() {
+            signInButton.style.color = "white"; // Change text color on hover
+        });
+
+        signInButton.addEventListener("mouseout", function() {
+            signInButton.style.color = "black"; // Reset text color after hover
+        });
+    </script>
+
+</body>
+</html>
