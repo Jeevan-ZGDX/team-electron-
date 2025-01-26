@@ -1,0 +1,204 @@
+        body {
+            margin: 0;
+            
+            font-family: Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ddd;
+        }
+        .logo {
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        header .nav-icons {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        header .nav-icons div {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+        }
+        header .nav-icons svg {
+            height: 24px;
+            width: 24px;
+            text-align: right ;
+        }
+        header .nav-icons span {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+        }
+        .hm-logo {
+        width: 100px; /* Adjust width */
+        height: auto; /* Maintain aspect ratio */
+        display: block;
+        fill: white; /* Ensures the logo color is white */
+        }
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+        }
+
+        header nav ul li a {
+            color:black;
+            text-decoration: none;
+        }
+
+        header .cart a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        svg path {
+            stroke: #000000;
+            stroke-width: 1.5; /* Adjust as needed for the thickness of the outline */
+        }
+        .banner {
+            background: url('images/banner.jpg') no-repeat center center/cover;
+            color:black;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        .banner h2 {
+            margin: 0;
+        }
+        .product-list {
+            padding: 2rem;
+        }
+
+        .product-list h3 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .products {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .product {
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            background-color: #fff;
+        }
+
+        .product img {
+            
+            max-width: 33%;
+            height: 200px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .product h4 {
+            margin: 0.5rem 0;
+            text-transform: capitalize;
+        }
+
+        .product button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        .product button:hover {
+            background-color: #555;
+        }
+        .slick-prev, .slick-next {
+            background-color: #333;
+            color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .slick-prev:hover, .slick-next:hover {
+            background-color: #555;
+        }
+        .slick-prev::before, .slick-next::before {
+            content: '';
+        }
+        .par1 {
+        margin: 0 auto;
+        padding: 2rem;
+        line-height: 1.6;
+        max-width: 800px;
+        text-align: left;
+        }
+        footer {
+            background-color: #e4e4e4;
+            color: black;
+            text-align: center;
+            padding: 1rem;
+        }
+        footer nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        footer nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+        .ad-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: linear-gradient(150deg, #CC071E, #ff758c);
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          }
+      
+          .ad-container h1 {
+            font-size: 2em;
+            margin: 0 0 10px;
+          }
+      
+          .ad-container p {
+            font-size: 1.2em;
+            margin: 10px 0 20px;
+          }
+      
+          .ad-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #CC071E;
+            background-color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+          }
+      
+          .ad-container a:hover {
+            background-color: #fff;
+            color: white;
+          }
+      
