@@ -1,0 +1,1198 @@
+/* Aside → Nav → List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+height: 704px;
+left: 0px;
+right: 1656px;
+top: 56.97px;
+
+
+
+/* Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 264px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 2 → Offers */
+
+width: 42px;
+height: 24px;
+
+/* www2.hm.com/Semantic/Heading 2 */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 0px;
+
+width: 264px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 264px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 2 → New In */
+
+width: 46px;
+height: 24px;
+
+/* www2.hm.com/Semantic/Heading 2 */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 264px;
+height: 200px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 2 → Shop by Room */
+
+width: 97px;
+height: 24px;
+
+/* www2.hm.com/Semantic/Heading 2 */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 264px;
+height: 168px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 264px;
+height: 296px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 2 → Shop by Product */
+
+width: 113px;
+height: 24px;
+
+/* www2.hm.com/Semantic/Heading 2 */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 264px;
+height: 264px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 264px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 264px;
+height: 16px;
+
+/* www2.hm.com/MS PGothic/Regular */
+font-family: 'MS PGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+display: flex;
+align-items: center;
+
+/* www2.hm.com/Mine Shaft */
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
