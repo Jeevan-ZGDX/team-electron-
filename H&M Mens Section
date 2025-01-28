@@ -390,12 +390,15 @@ footer .hm-logo-container .hm-logo {
         <div class="ad-container">
             <h1>Special Offer!</h1>
             <p>Get 50% off on all items for a limited time. Don't miss out!</p>
-            <a href="#">Shop Now</a>
+            <a href="https://www2.hm.com/en_in/divided/deals/ind_basicsdeal_3f2.html?msockid=11adc3bd1f046fa9163ad6c01b04691a">Shop Now</a>
           </div>
           
         <section class="banner">
+            <img src="https://marketingweek.imgix.net/content/uploads/2019/02/05114727/thread11.jpg?auto=compress,format&q=60&w=750&h=450">
             <h2>Men's Fashion</h2>
-            <p>Explore the latest trends in men's clothing</p>
+            <p><h4>Explore the latest trends in men's clothing<br>
+                Shipping takes 3 - 5 days </h4>
+            </p>
         </section>
 
         <!-- First Set of Products -->
@@ -403,37 +406,37 @@ footer .hm-logo-container .hm-logo {
             <h3>Featured Products</h3>
             <div class="products slider" id="productSlider1">
                 <div class="product">
-                    <img src="fashion.png" alt="Classic White Shirt" >
+                    <img src="https://th.bing.com/th/id/OIP.pQ3eCuJAVptXchXeNO2zRgHaHa?rs=1&pid=ImgDetMain" alt="Classic White Shirt" >
                     <h4>Classic White Shirt</h4>
                     <p>$25.00</p>
                     <button>Add to Cart</button>
                 </div>
                 <div class="product">
-                    <img src="fashion.png" alt="Casual Jacket" >
-                    <h4>Casual Jacket</h4>
-                    <p>$50.00</p>
+                    <img src="https://canary.contestimg.wish.com/api/webimage/5c0f75f82d72a82109403c22-large.jpg?cache_buster=1f844165347ccf930357c04d0216b04f">
+                    <h4>Kinyued Golden watch</h4>
+                    <p>INR14999.00</p>
                     <button>Add to Cart</button>
                 </div>
                 <div class="product">
-                    <img src="fashion.png" alt="Slim Fit Jeans" >
+                <img src="https://th.bing.com/th/id/OIP.BDjjRYrMvOncihPsJsvWtQHaHa?rs=1&pid=ImgDetMain" alt="Slim Fit Jeans" >
                     <h4>Slim Fit Jeans</h4>
                     <p>$40.00</p>
                     <button>Add to Cart</button>
                 </div>
                 <div class="product">
-                    <img src="fashion.png" alt="Graphic T-Shirt" >
+                    <img src="https://i.pinimg.com/originals/b6/58/85/b65885fd1685b100034c3bc542281301.jpg" alt="Graphic T-Shirt" >
                     <h4>Graphic T-Shirt</h4>
                     <p>$20.00</p>
                     <button>Add to Cart</button>
                 </div>
                 <div class="product">
-                    <img src="fashion.png" alt="Hooded Sweatshirt" >
+                    <img src="https://th.bing.com/th/id/OIP.fYN0hUk9CwyEnB1zSTfwrQHaHa?rs=1&pid=ImgDetMain" alt="Hooded Sweatshirt" >
                     <h4>Hooded Sweatshirt</h4>
                     <p>$35.00</p>
                     <button>Add to Cart</button>
                 </div>
                 <div class="product">
-                    <img src="fashion.png" alt="Casual Sneakers" >
+                    <img src="https://th.bing.com/th/id/OIP.wdFXU3Z60rpaINB4REsrUQHaHa?rs=1&pid=ImgDetMain" alt="Casual Sneakers" >
                     <h4>Casual Sneakers</h4>
                     <p>$60.00</p>
                     <button>Add to Cart</button>
